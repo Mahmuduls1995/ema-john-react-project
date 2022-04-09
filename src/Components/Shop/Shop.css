@@ -1,18 +1,23 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    
+    /* margin-left: 30px; */
 
 }
 
 .product-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 45px;
-    margin:100px ; 
+    gap: 25px;
+    margin-top:70px;
+    padding: 0 80px;
+    /* width: 100%; */
 }
 .cart-container{
-    background-color:  goldenrod;
+    background-color:  rgb(236, 201, 112);
     color: black;
+    margin-top:70px ;
 }
 @media screen and (max-width:1100px){
     .product-container{

@@ -1,3 +1,18 @@
-.cart{
+.heading-cart{
     text-align: center;
+    padding-bottom: 10px;
+    
+}
+.cart p{
+    font-weight: bold;
+    padding: 07px;
+}
+
+.cart{
+    /* text-align: center; */
+    position:sticky;
+    top: 0;
+    padding:30px 20px;
+    
+
 }

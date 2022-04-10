@@ -41,7 +41,7 @@ const Orders = () => {
 
             <div className="cart-container">
                 <Cart cart={cart}>
-                <button onClick={()=>Navigate('/inventory')}>Proceed Checkout </button>
+                <button className="border-2 px-2 rounded-md bg-lime-200" onClick={()=>Navigate('/shipment')}>Proceed Shipment </button>
                     {/* <button>
                         
                     <Link to="/">Proceed to checkout</Link>

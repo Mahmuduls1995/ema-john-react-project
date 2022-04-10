@@ -13,6 +13,8 @@ const SignUp = () => {
     const navigate = useNavigate();
 
     const [createUserWithEmailAndPassword, hookError, user] = useCreateUserWithEmailAndPassword(auth);
+
+    
     const handleEmailBlur = (event) => {
         setEmail(event.target.value);
     }
